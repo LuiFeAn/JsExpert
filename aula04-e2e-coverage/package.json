@@ -1,0 +1,23 @@
+{
+  "name": "erick-wendel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/api.js",
+    "test": "npx mocha -w src/*.test.js",
+    "test:cov":"npx nyc npx mocha -w src/*.test.js"
+  },
+  "engines": {
+    "node": "18.17.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "nyc": "^17.1.0",
+    "sinon": "^15.0.1",
+    "supertest": "^7.0.0"
+  }
+}

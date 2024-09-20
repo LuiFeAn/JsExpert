@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node index.test.js"
+    "test": "node src/service.test.js"
   },
   "engines": {
     "node": "18.17.1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sinon": "^15.0.1"
+  }
 }
